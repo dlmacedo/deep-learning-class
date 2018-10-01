@@ -706,62 +706,39 @@ def showPlot(points):
 
 def evaluate(encoder, decoder, sentence, max_length=MAX_LENGTH):
     input_variable = variableFromSentence(input_lang, sentence)
-    print("#1")
     input_length = input_variable.size()[0]
-    print("#2")
     encoder_hidden = encoder.initHidden()
-    print("#3")
 
     encoder_outputs = Variable(torch.zeros(max_length, encoder.hidden_size))
-    print("#4")
     encoder_outputs = encoder_outputs.cuda() if use_cuda else encoder_outputs
-    print("#5")
 
     for ei in range(input_length):
-        print("#6")
         encoder_output, encoder_hidden = encoder(input_variable[ei], encoder_hidden)
-        print("#7")
         encoder_outputs[ei] = encoder_outputs[ei] + encoder_output[0][0]
 
-    print("#8")
     decoder_input = Variable(torch.LongTensor([[SOS_token]]))  # SOS
-    print("#9")
     decoder_input = decoder_input.cuda() if use_cuda else decoder_input
 
-    print("#10")
     decoder_hidden = encoder_hidden
 
-    print("#11")
     decoded_words = []
-    print("#12")
     decoder_attentions = torch.zeros(max_length, max_length)
 
     for di in range(max_length):
-        print("#13")
         decoder_output, decoder_hidden, decoder_attention = decoder(decoder_input, decoder_hidden, encoder_output, encoder_outputs)
-        print("#14")
         decoder_attentions[di] = decoder_attention.data
-        print("#15")
         topv, topi = decoder_output.data.topk(1)
-        print("#16")
         ni = topi[0][0]
-        print("#17")
         if ni == EOS_token:
-            print("#18")
             decoded_words.append('<EOS>')
-            print("#19")
             break
         else:
-            print("#20")
             #decoded_words.append(output_lang.index2word[ni])
             decoded_words.append(output_lang.index2word[ni.item()])
 
-        print("#21")
         decoder_input = Variable(torch.LongTensor([[ni]]))
-        print("#22")
         decoder_input = decoder_input.cuda() if use_cuda else decoder_input
 
-    print("#23")
     return decoded_words, decoder_attentions[:di + 1]
 
 ######################################################################
@@ -810,7 +787,8 @@ if use_cuda:
     attn_decoder1 = attn_decoder1.cuda()
 
 #trainIters(encoder1, attn_decoder1, 75000, print_every=10000)
-trainIters(encoder1, attn_decoder1, 75000, print_every=10)
+#trainIters(encoder1, attn_decoder1, 75000, print_every=10)
+trainIters(encoder1, attn_decoder1, 2500, print_every=10)
 
 ######################################################################
 #
