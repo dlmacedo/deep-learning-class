@@ -26,6 +26,8 @@ List of web resourses:
 
 * https://github.com/sksq96/pytorch-summary
 
+* https://onnx.ai/
+
 ## Codes:
 
 * https://github.com/ritchieng/the-incredible-pytorch
