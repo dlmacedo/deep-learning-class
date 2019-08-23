@@ -16,6 +16,8 @@ List of web resourses:
 
 * https://www.fast.ai/
 
+* https://www.tensorflow.org/learn
+
 ## Tools
 
 * https://github.com/lutzroeder/netron
