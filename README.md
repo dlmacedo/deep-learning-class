@@ -12,21 +12,21 @@ List of web resourses:
 
 ## Learn
 
-* https://pytorch.org/tutorials/
-
 * https://www.fast.ai/
+
+* https://pytorch.org/tutorials/
 
 * https://www.tensorflow.org/learn
 
 ## Tools
+
+* https://onnx.ai/
 
 * https://github.com/lutzroeder/netron
 
 * https://github.com/szagoruyko/pytorchviz
 
 * https://github.com/sksq96/pytorch-summary
-
-* https://onnx.ai/
 
 ## Codes:
 
