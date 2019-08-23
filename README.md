@@ -42,6 +42,8 @@ List of web resourses:
 
 ## Papers:
 
+* https://arxiv.org/
+
 * https://github.com/sbrugman/deep-learning-papers
 
 * https://github.com/ChristosChristofidis/awesome-deep-learning
