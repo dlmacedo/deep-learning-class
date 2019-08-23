@@ -2,8 +2,8 @@
 
 This code is used in deep learning practical lectures in CIn/UFPE, Brazil.
 
-https://pytorch.org/
-https://pytorch.org/tutorials/
+[https://pytorch.org/](https://pytorch.org/)
+[https://pytorch.org/tutorials/](https://pytorch.org/tutorials/)
 https://www.fast.ai/
 https://github.com/lutzroeder/netron
 https://github.com/szagoruyko/pytorchviz
