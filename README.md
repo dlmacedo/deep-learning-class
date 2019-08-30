@@ -18,8 +18,6 @@ The code of this repository is used in the deep learning practical lectures in C
 
 * https://github.com/dsgiitr/d2l-pytorch
 
-* https://github.com/rasbt/deeplearning-models
-
 ## Tools
 
 * https://onnx.ai/
