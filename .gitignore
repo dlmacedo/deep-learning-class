@@ -111,25 +111,12 @@ ENV/
 
 neural-machine-translation/data/
 
-speaker-recognition/models/
-speaker-recognition/data/*.csv
-speaker-recognition/data/*_dataset/
-speaker-recognition/logs/
-
 mnist/data
 
-convolutional-neural-networks/data
-convolutional-neural-networks/checkpoint
+projects/convolutional-neural-networks/data
+projects/convolutional-neural-networks/checkpoint
 
-generative-adversarial-networks/logs
-generative-adversarial-networks/data
-generative-adversarial-networks/models
-generative-adversarial-networks/results
+projects/neural-machine-translation/data/
 
-autoencoders/data/
-autoencoders/dc_img/
-autoencoders/mlp_img/
-autoencoders/vae_img/
-
-dcgan/data/
-dcgan/*.png
+projects/deep-convolutional-generative-adversarial-networks/data/
+projects/deep-convolutional-generative-adversarial-networks/*.png
