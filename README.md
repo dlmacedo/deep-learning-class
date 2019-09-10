@@ -1,6 +1,6 @@
 # Deep Learning Class
 
-The code of this repository is used in the deep learning practical lectures in CIn/UFPE, Brazil.
+The code of this repository is used in the deep learning practical lectures.
 
 ## Frameworks
 
