@@ -1,17 +1,13 @@
-import  os
-import  tensorflow as tf
-import  numpy as np
-from    tensorflow import keras
-
-
-# In[16]:
+import os
+import tensorflow as tf
+import numpy as np
+from tensorflow import keras
 
 
 tf.random.set_seed(22)
 np.random.seed(22)
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 assert tf.__version__.startswith('2.')
-
 
 
 # fix random seed for reproducibility
@@ -31,23 +27,18 @@ print('x_test shape:', x_test.shape)
 
 
 class RNN(keras.Model):
-
     def __init__(self, units, num_classes, num_layers):
         super(RNN, self).__init__()
 
-
         # self.cells = [keras.layers.LSTMCell(units) for _ in range(num_layers)]
-        #
         # self.rnn = keras.layers.RNN(self.cells, unroll=True)
         self.rnn = keras.layers.LSTM(units, return_sequences=True)
         self.rnn2 = keras.layers.LSTM(units)
 
         # self.cells = (keras.layers.LSTMCell(units) for _ in range(num_layers))
-        # #
         # self.rnn = keras.layers.RNN(self.cells, return_sequences=True, return_state=True)
         # self.rnn = keras.layers.LSTM(units, unroll=True)
         # self.rnn = keras.layers.StackedRNNCells(self.cells)
-
 
         # have 1000 words totally, every word will be embedding into 100 length vector
         # the max sentence lenght is 80 words
@@ -79,7 +70,6 @@ def main():
 
     model = RNN(units, num_classes, num_layers=2)
 
-
     model.compile(optimizer=keras.optimizers.Adam(0.001),
                   loss=keras.losses.BinaryCrossentropy(from_logits=True),
                   metrics=['accuracy'])
@@ -91,8 +81,6 @@ def main():
     # evaluate on test set
     scores = model.evaluate(x_test, y_test, batch_size, verbose=1)
     print("Final test loss and accuracy :", scores)
-
-
 
 
 if __name__ == '__main__':

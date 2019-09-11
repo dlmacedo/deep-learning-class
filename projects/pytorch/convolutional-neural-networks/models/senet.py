@@ -1,7 +1,7 @@
 '''SENet in PyTorch.
-
 SENet is the winner of ImageNet-2017. The paper is not released yet.
 '''
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -117,5 +117,3 @@ def test():
     net = SENet18()
     y = net(torch.randn(1,3,32,32))
     print(y.size())
-
-# test()

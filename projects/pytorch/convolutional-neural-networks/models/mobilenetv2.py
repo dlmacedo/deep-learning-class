@@ -1,8 +1,8 @@
 '''MobileNetV2 in PyTorch.
-
 See the paper "Inverted Residuals and Linear Bottlenecks:
 Mobile Networks for Classification, Detection and Segmentation" for more details.
 '''
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -82,5 +82,3 @@ def test():
     x = torch.randn(2,3,32,32)
     y = net(x)
     print(y.size())
-
-# test()

@@ -1,4 +1,5 @@
 '''DenseNet in PyTorch.'''
+
 import math
 
 import torch
@@ -83,25 +84,29 @@ class DenseNet(nn.Module):
         out = self.linear(out)
         return out
 
+
 def DenseNet121():
     return DenseNet(Bottleneck, [6,12,24,16], growth_rate=32)
+
 
 def DenseNet169():
     return DenseNet(Bottleneck, [6,12,32,32], growth_rate=32)
 
+
 def DenseNet201():
     return DenseNet(Bottleneck, [6,12,48,32], growth_rate=32)
+
 
 def DenseNet161():
     return DenseNet(Bottleneck, [6,12,36,24], growth_rate=48)
 
+
 def densenet_cifar():
     return DenseNet(Bottleneck, [6,12,24,16], growth_rate=12)
+
 
 def test():
     net = densenet_cifar()
     x = torch.randn(1,3,32,32)
     y = net(x)
     print(y)
-
-# test()

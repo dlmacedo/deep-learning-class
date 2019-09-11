@@ -1,7 +1,7 @@
 '''ShuffleNet in PyTorch.
-
 See the paper "ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile Devices" for more details.
 '''
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -91,6 +91,7 @@ def ShuffleNetG2():
     }
     return ShuffleNet(cfg)
 
+
 def ShuffleNetG3():
     cfg = {
         'out_planes': [240,480,960],
@@ -105,5 +106,3 @@ def test():
     x = torch.randn(1,3,32,32)
     y = net(x)
     print(y)
-
-# test()

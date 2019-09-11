@@ -1,4 +1,5 @@
 '''Dual Path Networks in PyTorch.'''
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -79,6 +80,7 @@ def DPN26():
     }
     return DPN(cfg)
 
+
 def DPN92():
     cfg = {
         'in_planes': (96,192,384,768),
@@ -94,5 +96,3 @@ def test():
     x = torch.randn(1,3,32,32)
     y = net(x)
     print(y)
-
-# test()

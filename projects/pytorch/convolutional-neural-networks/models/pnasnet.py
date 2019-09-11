@@ -1,7 +1,7 @@
 '''PNASNet in PyTorch.
-
 Paper: Progressive Neural Architecture Search
 '''
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -37,6 +37,7 @@ class CellA(nn.Module):
             y2 = self.bn1(self.conv1(y2))
         return F.relu(y1+y2)
 
+
 class CellB(nn.Module):
     def __init__(self, in_planes, out_planes, stride=1):
         super(CellB, self).__init__()
@@ -67,6 +68,7 @@ class CellB(nn.Module):
         b2 = F.relu(y3+y4)
         y = torch.cat([b1,b2], 1)
         return F.relu(self.bn2(self.conv2(y)))
+
 
 class PNASNet(nn.Module):
     def __init__(self, cell_type, num_cells, num_planes):
@@ -112,6 +114,7 @@ class PNASNet(nn.Module):
 def PNASNetA():
     return PNASNet(CellA, num_cells=6, num_planes=44)
 
+
 def PNASNetB():
     return PNASNet(CellB, num_cells=6, num_planes=32)
 
@@ -121,5 +124,3 @@ def test():
     x = torch.randn(1,3,32,32)
     y = net(x)
     print(y)
-
-# test()

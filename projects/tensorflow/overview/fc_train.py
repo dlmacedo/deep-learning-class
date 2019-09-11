@@ -5,12 +5,14 @@ from tensorflow.keras import layers, optimizers, datasets
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'  # or any {'0', '1', '2'}
 
+
 def mnist_dataset():
   (x, y), _ = datasets.mnist.load_data()
   ds = tf.data.Dataset.from_tensor_slices((x, y))
   ds = ds.map(prepare_mnist_features_and_labels)
   ds = ds.take(20000).shuffle(20000).batch(100)
   return ds
+
 
 @tf.function
 def prepare_mnist_features_and_labels(x, y):
@@ -34,10 +36,12 @@ def compute_loss(logits, labels):
       tf.nn.sparse_softmax_cross_entropy_with_logits(
           logits=logits, labels=labels))
 
+
 @tf.function
 def compute_accuracy(logits, labels):
   predictions = tf.argmax(logits, axis=1)
   return tf.reduce_mean(tf.cast(tf.equal(predictions, labels), tf.float32))
+
 
 @tf.function
 def train_one_step(model, optimizer, x, y):

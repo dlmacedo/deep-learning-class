@@ -1,4 +1,5 @@
 '''VGG11/13/16/19 in Pytorch.'''
+
 import torch
 import torch.nn as nn
 
@@ -43,5 +44,3 @@ def test():
     x = torch.randn(2,3,32,32)
     y = net(x)
     print(y.size())
-
-# test()
