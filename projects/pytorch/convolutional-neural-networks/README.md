@@ -1,6 +1,6 @@
 # Train CIFAR10 with PyTorch
 
-[PyTorch](http://pytorch.org/) on the CIFAR10 dataset.
+Code to train different models on cifar10 dataset.
 
 ## Accuracy
 | Model             | Acc.        |
