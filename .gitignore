@@ -100,23 +100,17 @@ ENV/
 # mypy
 .mypy_cache/
 
-
-
 ########
 
 *.pth
 *.zip*
+*.png
 
 .idea/
 
 projects/pytorch/hello-world/data
-
 projects/pytorch/convolutional-neural-networks/data
 projects/pytorch/convolutional-neural-networks/checkpoint
-
 projects/pytorch/neural-machine-translation/data/
-
 projects/pytorch/deep-convolutional-generative-adversarial-networks/data/
-projects/pytorch/deep-convolutional-generative-adversarial-networks/*.png
-
 projects/tensorflow/rnn-sentiment-analysis/nohup.out

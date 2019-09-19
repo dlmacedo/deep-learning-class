@@ -2,6 +2,10 @@
 
 The code of this repository is used in the deep learning practical lectures.
 
+It requires Python 3.X, PyTorch 1.X, and TensorFlow 2.X.
+
+We recommend installing libs using conda or pip.
+
 ## Frameworks
 
 * https://pytorch.org/
@@ -28,13 +32,15 @@ The code of this repository is used in the deep learning practical lectures.
 
 * https://github.com/sksq96/pytorch-summary
 
+* https://github.com/williamFalcon/pytorch-lightning
+
 ## Codes:
 
 * https://paperswithcode.com/
 
-* https://github.com/ritchieng/the-incredible-pytorch
-
 * https://github.com/bharathgs/Awesome-pytorch-list
+
+* https://github.com/ritchieng/the-incredible-pytorch
 
 * https://github.com/aymericdamien/TensorFlow-Examples
 

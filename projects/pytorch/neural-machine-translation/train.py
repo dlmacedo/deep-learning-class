@@ -65,7 +65,6 @@ And for more, read the papers that introduced these topics:
 from __future__ import unicode_literals, print_function, division
 from io import open
 import unicodedata
-import string
 import re
 import random
 
@@ -188,7 +187,7 @@ def readLangs(lang1, lang2, reverse=False):
     print("Reading lines...")
 
     # Read the file and split into lines
-    #lines = open('data/%s-%s.txt' % (lang1, lang2), encoding='utf-8').\
+    # lines = open('data/%s-%s.txt' % (lang1, lang2), encoding='utf-8').\
     lines = open('data/%s.txt' % (lang2), encoding='utf-8').\
         read().strip().split('\n')
 
@@ -261,7 +260,7 @@ def prepareData(lang1, lang2, reverse=False):
     return input_lang, output_lang, pairs
 
 
-#input_lang, output_lang, pairs = prepareData('eng', 'fra', True)
+# input_lang, output_lang, pairs = prepareData('eng', 'fra', True)
 input_lang, output_lang, pairs = prepareData('eng', 'por', True)
 print(random.choice(pairs))
 
@@ -681,7 +680,6 @@ def trainIters(encoder, decoder, n_iters, print_every=1000, plot_every=100, lear
 
 import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
-import numpy as np
 
 
 def showPlot(points):
@@ -787,8 +785,7 @@ if use_cuda:
     attn_decoder1 = attn_decoder1.cuda()
 
 #trainIters(encoder1, attn_decoder1, 75000, print_every=10000)
-#trainIters(encoder1, attn_decoder1, 75000, print_every=10)
-trainIters(encoder1, attn_decoder1, 2500, print_every=10)
+trainIters(encoder1, attn_decoder1, 75000, print_every=10)
 
 ######################################################################
 #
@@ -820,7 +817,7 @@ plt.matshow(attentions.numpy())
 #
 
 
-#def showAttention(input_sentence, output_words, attentions):
+# def showAttention(input_sentence, output_words, attentions):
 def showAttention(input_sentence, output_words, attentions):
     # Set up figure with colorbar
     fig = plt.figure()

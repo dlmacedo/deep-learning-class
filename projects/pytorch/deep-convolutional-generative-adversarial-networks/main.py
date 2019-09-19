@@ -2,9 +2,7 @@ from __future__ import print_function
 import argparse
 import os
 import random
-import torch
 import torch.nn as nn
-import torch.nn.parallel
 import torch.backends.cudnn as cudnn
 import torch.optim as optim
 import torch.utils.data
@@ -78,6 +76,7 @@ elif opt.dataset == 'cifar10':
 elif opt.dataset == 'fake':
     dataset = dset.FakeData(image_size=(3, opt.imageSize, opt.imageSize),
                             transform=transforms.ToTensor())
+
 assert dataset
 dataloader = torch.utils.data.DataLoader(dataset, batch_size=opt.batchSize, shuffle=True, num_workers=int(opt.workers))
 
