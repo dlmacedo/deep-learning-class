@@ -280,3 +280,5 @@ Train MNIST with a **convolutional network**:
 ```
 python conv_train.py
 ```
+
+Code originally from https://github.com/dragen1860/TensorFlow-2.x-Tutorials
