@@ -8,6 +8,8 @@ We recommend installing libs using conda or pip.
 
 ## Frameworks
 
+* https://python.org/
+
 * https://pytorch.org/
 
 * https://www.tensorflow.org/
