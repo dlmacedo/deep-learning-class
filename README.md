@@ -71,7 +71,7 @@ https://www.qblocks.cloud/creators/computer-vision-google-colab-notebooks
 
 ## Notebooks:
 
-* [Detectron2 Beginner's Tutorial]https://github.com/dlmacedo/deep-learning-class/blob/master/Detectron2_Tutorial.ipynb
+* [Detectron2 Beginner's Tutorial](https://github.com/dlmacedo/deep-learning-class/blob/master/Detectron2_Tutorial.ipynb)
 
 
 
