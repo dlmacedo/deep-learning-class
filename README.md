@@ -59,3 +59,9 @@ We recommend installing libs using conda or pip.
 * https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap
 
 * https://github.com/terryum/awesome-deep-learning-papers
+
+
+https://github.com/huggingface/transformers/tree/master/notebooks
+
+https://www.qblocks.cloud/creators/computer-vision-google-colab-notebooks
+
