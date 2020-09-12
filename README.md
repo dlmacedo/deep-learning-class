@@ -65,3 +65,9 @@ https://github.com/huggingface/transformers/tree/master/notebooks
 
 https://www.qblocks.cloud/creators/computer-vision-google-colab-notebooks
 
+## Jax:
+
+* https://sjmielke.com/jax-purify.htm
+
+
+
