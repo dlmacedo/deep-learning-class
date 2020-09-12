@@ -22,7 +22,7 @@ We recommend installing libs using conda or pip.
 
 * https://www.tensorflow.org/learn
 
-* https://github.com/dsgiitr/d2l-pytorch
+* https://d2l.ai/
 
 ## Tools
 
@@ -36,7 +36,7 @@ We recommend installing libs using conda or pip.
 
 * https://github.com/williamFalcon/pytorch-lightning
 
-## Codes:
+## Papers and Codes:
 
 * https://paperswithcode.com/
 
@@ -47,8 +47,6 @@ We recommend installing libs using conda or pip.
 * https://github.com/aymericdamien/TensorFlow-Examples
 
 * https://github.com/jtoy/awesome-tensorflow
-
-## Papers:
 
 * https://arxiv.org/
 
@@ -66,11 +64,11 @@ https://github.com/huggingface/transformers/tree/master/notebooks
 https://www.qblocks.cloud/creators/computer-vision-google-colab-notebooks
 
 
-# Notebooks
+## Notebooks
 
-## PyTorch:
+### PyTorch:
 
 * [Detectron2 Beginner's Tutorial](https://github.com/dlmacedo/deep-learning-class/blob/master/Detectron2_Tutorial.ipynb)
 
-## TensorFlow:
+### TensorFlow:
 
