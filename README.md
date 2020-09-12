@@ -1,7 +1,5 @@
 # Deep Learning Class
 
-The code of this repository is used in deep learning practical lectures.
-
 ## Frameworks
 
 * https://python.org/
