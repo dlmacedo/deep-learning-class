@@ -1,10 +1,6 @@
 # Deep Learning Class
 
-The code of this repository is used in the deep learning practical lectures.
-
-It requires Python 3.X, PyTorch 1.X, and TensorFlow 2.X.
-
-We recommend installing libs using conda or pip.
+The code of this repository is used in deep learning practical lectures.
 
 ## Frameworks
 
@@ -16,13 +12,13 @@ We recommend installing libs using conda or pip.
 
 ## Learn
 
+* https://d2l.ai/
+
 * https://www.fast.ai/
 
 * https://pytorch.org/tutorials/
 
 * https://www.tensorflow.org/learn
-
-* https://d2l.ai/
 
 ## Tools
 
@@ -58,17 +54,18 @@ We recommend installing libs using conda or pip.
 
 * https://github.com/terryum/awesome-deep-learning-papers
 
-
-https://github.com/huggingface/transformers/tree/master/notebooks
-
-https://www.qblocks.cloud/creators/computer-vision-google-colab-notebooks
-
-
 ## Notebooks
 
 ### PyTorch:
 
-* [Detectron2 Beginner's Tutorial](https://github.com/dlmacedo/deep-learning-class/blob/master/Detectron2_Tutorial.ipynb)
+
 
 ### TensorFlow:
 
+
+
+### More:
+
+* https://github.com/huggingface/transformers/tree/master/notebooks
+
+* https://www.qblocks.cloud/creators/computer-vision-google-colab-notebooks
