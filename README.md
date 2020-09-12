@@ -66,11 +66,11 @@ https://github.com/huggingface/transformers/tree/master/notebooks
 https://www.qblocks.cloud/creators/computer-vision-google-colab-notebooks
 
 
-## Notebooks
+# Notebooks
 
-# PyTorch:
+## PyTorch:
 
 * [Detectron2 Beginner's Tutorial](https://github.com/dlmacedo/deep-learning-class/blob/master/Detectron2_Tutorial.ipynb)
 
-# TensorFlow:
+## TensorFlow:
 
