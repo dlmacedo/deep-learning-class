@@ -69,5 +69,9 @@ https://www.qblocks.cloud/creators/computer-vision-google-colab-notebooks
 
 * https://sjmielke.com/jax-purify.htm
 
+## Notebooks:
+
+* https://github.com/dlmacedo/deep-learning-class/blob/master/Detectron2_Tutorial.ipynb
+
 
 
