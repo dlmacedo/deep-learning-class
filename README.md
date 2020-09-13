@@ -4,25 +4,35 @@ The code of this repository should be used to perform the practical classes and 
 
 ## Frameworks
 
-* https://python.org/
+* [Python](https://python.org)
 
-* https://pytorch.org/
+* [PyTorch](https://pytorch.org)
 
-* https://www.tensorflow.org/
+* [Keras](https://keras.io)
+
+* [TensorFlow](https://www.tensorflow.org)
+
+* [Huggingface Transformers](https://github.com/huggingface/transformers)
+
+* [Simple Transformers](https://simpletransformers.ai)
 
 ## Learn
 
-* https://d2l.ai/
+* https://d2l.ai
 
-* https://www.fast.ai/
+* https://www.fast.ai
 
-* https://pytorch.org/tutorials/
+* https://pytorch.org/tutorials
 
 * https://www.tensorflow.org/learn
 
 ## Tools
 
-* https://onnx.ai/
+* https://onnx.ai
+
+* https://www.wandb.com
+
+* https://huggingface.co
 
 * https://github.com/lutzroeder/netron
 
@@ -40,7 +50,7 @@ The code of this repository should be used to perform the practical classes and 
 
 ## Papers and Codes:
 
-* https://paperswithcode.com/
+* https://paperswithcode.com
 
 * https://github.com/bharathgs/Awesome-pytorch-list
 
