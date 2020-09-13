@@ -32,6 +32,12 @@ The code of this repository should be used to perform the practical classes and 
 
 * https://github.com/williamFalcon/pytorch-lightning
 
+## Development:
+
+* [VS Code Remote Development using SSH](https://code.visualstudio.com/docs/remote/ssh)
+
+* [VS Code on Google Colab](https://amitness.com/vscode-on-colab)
+
 ## Papers and Codes:
 
 * https://paperswithcode.com/
