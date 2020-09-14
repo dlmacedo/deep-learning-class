@@ -4,9 +4,9 @@ The code of this repository should be used to perform the practical classes and 
 
 ## Frameworks
 
-* [Python](https://python.org)
-
 * [PyTorch](https://pytorch.org)
+
+* [Pytorch Lightning](https://github.com/PyTorchLightning/pytorch-lightning)
 
 * [Keras](https://keras.io)
 
@@ -32,15 +32,11 @@ The code of this repository should be used to perform the practical classes and 
 
 * https://www.wandb.com
 
-* https://huggingface.co
-
 * https://github.com/lutzroeder/netron
 
 * https://github.com/szagoruyko/pytorchviz
 
 * https://github.com/sksq96/pytorch-summary
-
-* https://github.com/williamFalcon/pytorch-lightning
 
 ## Development:
 
