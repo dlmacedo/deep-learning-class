@@ -84,4 +84,7 @@ The code of this repository should be used to perform the practical classes and 
 
 * https://github.com/huggingface/transformers/tree/master/notebooks
 
-* https://www.qblocks.cloud/creators/computer-vision-google-colab-notebooks
+* [Top Computer Vision Google Colab Notebooks](https://www.qblocks.cloud/creators/computer-vision-google-colab-notebooks)
+
+* [Roboflow Computer Vision Model Library](https://models.roboflow.com)
+
