@@ -14,7 +14,7 @@ The code of this repository should be used to perform the practical classes and 
 
 * [Huggingface Transformers](https://github.com/huggingface/transformers)
 
-* [Simple Transformers](https://simpletransformers.ai)
+* [Simple Transformers](https://github.com/ThilinaRajapakse/simpletransformers)
 
 * [Sentence Transformers](https://github.com/UKPLab/sentence-transformers)
 
