@@ -16,6 +16,8 @@ The code of this repository should be used to perform the practical classes and 
 
 * [Simple Transformers](https://simpletransformers.ai)
 
+* [Sentence Transformers](https://github.com/UKPLab/sentence-transformers)
+
 ## Learn
 
 * https://d2l.ai
