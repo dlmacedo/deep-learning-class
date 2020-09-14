@@ -80,6 +80,8 @@ The code of this repository should be used to perform the practical classes and 
 
 ### More:
 
+* [HuggingFace Datasets library - Quick overview](https://github.com/huggingface/datasets/blob/master/notebooks/Overview.ipynb)
+
 * https://github.com/huggingface/transformers/tree/master/notebooks
 
 * https://www.qblocks.cloud/creators/computer-vision-google-colab-notebooks
