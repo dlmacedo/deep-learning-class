@@ -76,6 +76,8 @@ The code of this repository should be used to perform the practical classes and 
 
 * [Fully-Convolutional Network model with a ResNet-101 backbone](https://github.com/dlmacedo/deep-learning-class/blob/master/notebooks/pytorch/pytorch_vision_fcn_resnet101.ipynb)
 
+* [TorchVision Object Detection finetuning tutorial](https://github.com/dlmacedo/deep-learning-class/blob/master/notebooks/pytorch/torchvision_finetuning_instance_segmentation.ipynb)
+
 ### TensorFlow:
 
 
