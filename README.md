@@ -20,25 +20,25 @@ The code of this repository should be used to perform the practical classes and 
 
 ## Learn
 
-* https://d2l.ai
+* [Dive into Deep Learning](https://d2l.ai)
 
-* https://www.fast.ai
+* [Fast AI (PyTorch)](https://www.fast.ai)
 
-* https://pytorch.org/tutorials
+* [PyTorch Tutorials](https://pytorch.org/tutorials)
 
-* https://www.tensorflow.org/learn
+* [TensorFlow Learn](https://www.tensorflow.org/learn)
 
 ## Tools
 
-* https://onnx.ai
+* [Open Neural Network Exchange](https://onnx.ai)
 
-* https://www.wandb.com
+* [Weights and Biases](https://www.wandb.com)
 
-* https://github.com/lutzroeder/netron
+* [Netron: Model Viewer](https://github.com/lutzroeder/netron)
 
-* https://github.com/szagoruyko/pytorchviz
+* [PyTorchViz: Model Visualizer](https://github.com/szagoruyko/pytorchviz)
 
-* https://github.com/sksq96/pytorch-summary
+* [Keras style model.summary() in PyTorch](https://github.com/sksq96/pytorch-summary)
 
 ## Development:
 
