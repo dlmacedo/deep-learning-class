@@ -6,6 +6,8 @@ The code of this repository should be used to perform the practical classes and 
 
 ### PyTorch:
 
+* [PyTorch Optimizer](https://github.com/dlmacedo/deep-learning-class/blob/master/notebooks/pytorch/two_layer_net_optim.ipynb)
+
 * [Detectron2 Beginner's Tutorial](https://github.com/dlmacedo/deep-learning-class/blob/master/notebooks/pytorch/Detectron2_Tutorial.ipynb)
 
 * [Fully-Convolutional Network model with a ResNet-101 backbone](https://github.com/dlmacedo/deep-learning-class/blob/master/notebooks/pytorch/pytorch_vision_fcn_resnet101.ipynb)
