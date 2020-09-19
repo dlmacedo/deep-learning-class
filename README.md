@@ -18,8 +18,6 @@ The code of this repository should be used to perform the practical classes and 
 
 * [Training a Classifier](https://github.com/dlmacedo/deep-learning-class/blob/master/notebooks/pytorch/cifar10_tutorial.ipynb)
 
-* [DCGAN tutorial](https://github.com/dlmacedo/deep-learning-class/blob/master/notebooks/pytorch/dcgan_faces_tutorial.ipynb)
-
 * [Finetuning Torchvision Models](https://github.com/dlmacedo/deep-learning-class/blob/master/notebooks/pytorch/finetuning_torchvision_models_tutorial.ipynb)
 
 * [TorchVision Object Detection finetuning tutorial](https://github.com/dlmacedo/deep-learning-class/blob/master/notebooks/pytorch/torchvision_finetuning_instance_segmentation.ipynb)
@@ -28,7 +26,11 @@ The code of this repository should be used to perform the practical classes and 
 
 * [Detectron2 Beginner's Tutorial](https://github.com/dlmacedo/deep-learning-class/blob/master/notebooks/pytorch/Detectron2_Tutorial.ipynb)
 
+* [Sequence Models and Long-Short Term Memory Networks](https://github.com/dlmacedo/deep-learning-class/blob/master/notebooks/pytorch/sequence_models_tutorial.ipynb)
+
 * [Object Detection with DETR - a minimal implementation](https://github.com/dlmacedo/deep-learning-class/blob/master/notebooks/pytorch/detr_demo.ipynb)
+
+* [DCGAN tutorial](https://github.com/dlmacedo/deep-learning-class/blob/master/notebooks/pytorch/dcgan_faces_tutorial.ipynb)
 
 ### TensorFlow:
 
