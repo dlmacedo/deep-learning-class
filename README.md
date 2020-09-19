@@ -36,6 +36,8 @@ The code of this repository should be used to perform the practical classes and 
 
 * [Transformer Illustration and code](https://github.com/dlmacedo/deep-learning-class/blob/master/notebooks/pytorch/Transformer_Illustration_and_code.ipynb)
 
+* [nn.Transformer Tutorial](https://github.com/dlmacedo/deep-learning-class/blob/master/notebooks/pytorch/transformer_tutorial.ipynb)
+
 * [Object Detection with DETR - a minimal implementation](https://github.com/dlmacedo/deep-learning-class/blob/master/notebooks/pytorch/detr_demo.ipynb)
 
 * [DCGAN tutorial](https://github.com/dlmacedo/deep-learning-class/blob/master/notebooks/pytorch/dcgan_faces_tutorial.ipynb)
