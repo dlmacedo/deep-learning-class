@@ -54,6 +54,8 @@ The code of this repository should be used to perform the practical classes and 
 
 * [Image classification](https://github.com/dlmacedo/deep-learning-class/blob/master/notebooks/tensorflow/classification.ipynb)
 
+* [Eager Execution](https://github.com/dlmacedo/deep-learning-class/blob/master/notebooks/tensorflow/eager.ipynb)
+
 ### More:
 
 * [HuggingFace Datasets library - Quick overview](https://github.com/huggingface/datasets/blob/master/notebooks/Overview.ipynb)
