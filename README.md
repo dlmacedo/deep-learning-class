@@ -92,13 +92,13 @@ The code of this repository should be used to perform the practical classes and 
 
 * [Keras style model.summary() in PyTorch](https://github.com/sksq96/pytorch-summary)
 
-## Development:
+## Development
 
 * [VS Code Remote Development using SSH](https://code.visualstudio.com/docs/remote/ssh)
 
 * [VS Code on Google Colab](https://amitness.com/vscode-on-colab)
 
-## Papers and Codes:
+## Papers and Codes
 
 * [arXiv](https://arxiv.org)
 
