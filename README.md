@@ -44,7 +44,7 @@ The code of this repository should be used to perform the practical classes and 
 
 ### TensorFlow:
 
-
+* [TensorFlow 2.X](https://github.com/dlmacedo/deep-learning-class/blob/master/notebooks/tensorflow/TF_2_0.ipynb)
 
 ### More:
 
