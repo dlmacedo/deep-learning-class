@@ -14,6 +14,8 @@ The code of this repository should be used to perform the practical classes and 
 
 * [Optimizer](https://github.com/dlmacedo/deep-learning-class/blob/master/notebooks/pytorch/two_layer_net_optim.ipynb)
 
+* [Neural Networks](https://github.com/dlmacedo/deep-learning-class/blob/master/notebooks/pytorch/neural_networks_tutorial.ipynb)
+
 * [Training a Classifier](https://github.com/dlmacedo/deep-learning-class/blob/master/notebooks/pytorch/cifar10_tutorial.ipynb)
 
 * [DCGAN tutorial](https://github.com/dlmacedo/deep-learning-class/blob/master/notebooks/pytorch/dcgan_faces_tutorial.ipynb)
