@@ -52,6 +52,8 @@ The code of this repository should be used to perform the practical classes and 
 
 * [Get started with TensorFlow 2.X for experts](https://github.com/dlmacedo/deep-learning-class/blob/master/notebooks/tensorflow/advanced.ipynb)
 
+* [Image classification](https://github.com/dlmacedo/deep-learning-class/blob/master/notebooks/tensorflow/classification.ipynb)
+
 ### More:
 
 * [HuggingFace Datasets library - Quick overview](https://github.com/huggingface/datasets/blob/master/notebooks/Overview.ipynb)
