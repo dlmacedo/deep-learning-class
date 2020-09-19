@@ -52,9 +52,11 @@ The code of this repository should be used to perform the practical classes and 
 
 * [Get started with TensorFlow 2.X for experts](https://github.com/dlmacedo/deep-learning-class/blob/master/notebooks/tensorflow/advanced.ipynb)
 
+* [Eager Execution](https://github.com/dlmacedo/deep-learning-class/blob/master/notebooks/tensorflow/eager.ipynb)
+
 * [Image classification](https://github.com/dlmacedo/deep-learning-class/blob/master/notebooks/tensorflow/classification.ipynb)
 
-* [Eager Execution](https://github.com/dlmacedo/deep-learning-class/blob/master/notebooks/tensorflow/eager.ipynb)
+* [TensorFlow Hub with Keras](https://github.com/dlmacedo/deep-learning-class/blob/master/notebooks/tensorflow/hub_with_keras.ipynb)
 
 ### More:
 
