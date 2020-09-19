@@ -20,6 +20,8 @@ The code of this repository should be used to perform the practical classes and 
 
 * [Training a Classifier](https://github.com/dlmacedo/deep-learning-class/blob/master/notebooks/pytorch/cifar10_tutorial.ipynb)
 
+* [Transfer Learning Tutorial](https://github.com/dlmacedo/deep-learning-class/blob/master/notebooks/pytorch/transfer_learning_tutorial.ipynb)
+
 * [Finetuning Torchvision Models](https://github.com/dlmacedo/deep-learning-class/blob/master/notebooks/pytorch/finetuning_torchvision_models_tutorial.ipynb)
 
 * [TorchVision Object Detection finetuning tutorial](https://github.com/dlmacedo/deep-learning-class/blob/master/notebooks/pytorch/torchvision_finetuning_instance_segmentation.ipynb)
