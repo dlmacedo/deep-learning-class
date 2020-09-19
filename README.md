@@ -30,6 +30,8 @@ The code of this repository should be used to perform the practical classes and 
 
 * [Detectron2 Beginner's Tutorial](https://github.com/dlmacedo/deep-learning-class/blob/master/notebooks/pytorch/Detectron2_Tutorial.ipynb)
 
+* [Time Series Prediction with LSTM Using PyTorch](https://github.com/dlmacedo/deep-learning-class/blob/master/notebooks/pytorch/Time_Series_Prediction_with_LSTM_Using_PyTorch.ipynb)
+
 * [Sequence Models and Long-Short Term Memory Networks](https://github.com/dlmacedo/deep-learning-class/blob/master/notebooks/pytorch/sequence_models_tutorial.ipynb)
 
 * [Object Detection with DETR - a minimal implementation](https://github.com/dlmacedo/deep-learning-class/blob/master/notebooks/pytorch/detr_demo.ipynb)
