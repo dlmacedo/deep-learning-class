@@ -32,7 +32,7 @@ The code of this repository should be used to perform the practical classes and 
 
 * [Time Series Prediction with LSTM Using PyTorch](https://github.com/dlmacedo/deep-learning-class/blob/master/notebooks/pytorch/Time_Series_Prediction_with_LSTM_Using_PyTorch.ipynb)
 
-* [Sequence Models and Long-Short Term Memory Networks: NLP Parts of Speech](https://github.com/dlmacedo/deep-learning-class/blob/master/notebooks/pytorch/sequence_models_tutorial.ipynb)
+* [Sequence Models and Long-Short Term Memory Networks: NLP Part of Speech](https://github.com/dlmacedo/deep-learning-class/blob/master/notebooks/pytorch/sequence_models_tutorial.ipynb)
 
 * [Transformer Illustration and code](https://github.com/dlmacedo/deep-learning-class/blob/master/notebooks/pytorch/Transformer_Illustration_and_code.ipynb)
 
