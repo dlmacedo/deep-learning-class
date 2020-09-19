@@ -48,6 +48,8 @@ The code of this repository should be used to perform the practical classes and 
 
 * [TensorFlow 2.X + Keras Overview for Deep Learning Researchers](https://github.com/dlmacedo/deep-learning-class/blob/master/notebooks/tensorflow/TensorFlow_2_0_%2B_Keras_Crash_Course.ipynb)
 
+* [Get started with TensorFlow 2.0 for experts](https://github.com/dlmacedo/deep-learning-class/blob/master/notebooks/tensorflow/advanced.ipynb)
+
 ### More:
 
 * [HuggingFace Datasets library - Quick overview](https://github.com/huggingface/datasets/blob/master/notebooks/Overview.ipynb)
