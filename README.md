@@ -6,6 +6,8 @@ The code of this repository should be used to perform the practical classes and 
 
 ### PyTorch:
 
+* [What is PyTorch?](https://github.com/dlmacedo/deep-learning-class/blob/master/notebooks/pytorch/tensor_tutorial.ipynb)
+
 * [Automatic Differentiation](https://github.com/dlmacedo/deep-learning-class/blob/master/notebooks/pytorch/autograd_tutorial.ipynb)
 
 * [Sequential Modules](https://github.com/dlmacedo/deep-learning-class/blob/master/notebooks/pytorch/two_layer_net_nn.ipynb)
