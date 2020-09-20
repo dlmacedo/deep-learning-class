@@ -1,3 +1,7 @@
+---
+---
+
+@import "{{ site.theme }}";
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -141,5 +145,3 @@ h2 {
   bottom: 20px;
   right: 20px;
 }
-
-@import "{{ site.theme }}";
