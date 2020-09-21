@@ -1,4 +1,4 @@
-# **[THIS COURSE HAS BEEN MOVED TO DLMACEDO.COM!!!](dlmacedo.com)**
+# **[THIS COURSE HAS BEEN MOVED TO DLMACEDO.COM!!!](http://dlmacedo.com)**
 
 # Deep Learning Course
 
