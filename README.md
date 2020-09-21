@@ -1,6 +1,8 @@
 # **[THIS COURSE HAS BEEN MOVED TO DLMACEDO.COM!!!](http://dlmacedo.com)**
 
-# **[FOR UPDATES, PLEASE, WATCH, STAR, AND FORK THE NEW REPOSITORY: https://github.com/dlmacedo/starter-academic!!!](https://github.com/dlmacedo/starter-academic)**
+# **[FOR UPDATES, PLEASE, WATCH, STAR, OR FORK THE NEW REPOSITORY: https://github.com/dlmacedo/starter-academic!!!](https://github.com/dlmacedo/starter-academic)**
+
+# **[OR SIMPLY GO TO DLMACEDO.COM FOR A WEB INTERFACE!!!](http://dlmacedo.com)**
 
 # Deep Learning Course
 
