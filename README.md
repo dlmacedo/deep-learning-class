@@ -2,7 +2,7 @@
 
 # **[FOR UPDATES, PLEASE, WATCH, STAR, OR FORK THE NEW REPOSITORY: https://github.com/dlmacedo/starter-academic!!!](https://github.com/dlmacedo/starter-academic)**
 
-# **[OR SIMPLY GO TO DLMACEDO.COM FOR A WEB INTERFACE!!!](http://dlmacedo.com)**
+# **[OR SIMPLY GO TO DLMACEDO.COM FOR A WEB INTERFACE AND LECTURE SLIDES!!!](http://dlmacedo.com)**
 
 # Deep Learning Course
 
