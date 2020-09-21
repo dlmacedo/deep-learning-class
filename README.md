@@ -1,3 +1,5 @@
+# **THIS COURSE HAS BEEN MOVED TO dlmacedo.com**
+
 # Deep Learning Course
 
 The code of this repository should be used to perform the practical classes and the recommended tasks. All notebooks of this repository are configured to run on Google Colab using GPU support for Deep Learning.
